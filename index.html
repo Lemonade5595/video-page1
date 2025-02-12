@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Looping Video</title>
+    <title>Looping Video with Background Music</title>
     <style>
         body, html {
             margin: 0;
@@ -22,9 +22,16 @@
     </style>
 </head>
 <body>
+    <!-- Video Section -->
     <video autoplay muted loop>
         <source src="video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+
+    <!-- Audio Section -->
+    <audio autoplay loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 </body>
 </html>
